@@ -68,13 +68,9 @@ public class Cell {
 		if (_state == State.DEAD) {
 			toReturn = ' ';
 		} else if (_state == State.ALIVE) {
-			toReturn = '*';
+			toReturn = 'X';
 		} else {
-<<<<<<< HEAD
 			toReturn = '_';
-=======
-			toReturn = ' ';
->>>>>>> wjl_display
 		}
 		return toReturn;
 	}
